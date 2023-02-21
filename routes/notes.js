@@ -9,8 +9,6 @@ notes.get("/", (req, res) => {
 
 // POST Route for a new note
 notes.post("/", (req, res) => {
-  console.log(req.body);
-
   const { title, text } = req.body;
 
   if (req.body) {
@@ -30,10 +28,14 @@ notes.post("/", (req, res) => {
 // DELETE Route for a note
 notes.delete("/:id", (req, res) => {
   const noteId = req.params.id;
-  readFromFile("./db/db.json").then((notes) => {
-    notes.filter((note) => note.id !== noteId);
-    writeToFile(notes, "./db/db.json");
-  });
+  readFromFile("./db/db.json")
+    .then((data) => JSON.parse(data))
+    .then((notes) => {
+      console.log(notes);
+      let filteredNotes = notes.filter((note) => note.id !== noteId);
+      writeToFile("./db/db.json", filteredNotes);
+      res.json(`Note deleted successfully 🚀`);
+    });
 });
 
 module.exports = notes;

@@ -1,17 +1,17 @@
 [
     {
-        "title": "Street Magic",
-        "text": "The coolest magic ever",
-        "id": "f28bebf2-b069-43ab-a0a9-ec82a1ce919f"
+        "title": "Test note",
+        "text": "This is a test",
+        "id": "7b18a390-c420-4819-89ec-4312e8cac4d0"
     },
     {
-        "title": "Fake Magic",
-        "text": "This is not a real magic",
-        "id": "121efdf8-7e9c-4549-b21c-2328ba06b5e5"
+        "title": "Do laundry",
+        "text": "Pls clean clothes",
+        "id": "c0710695-ba98-47f2-b775-acdfe00ba0c3"
     },
     {
-        "title": "This note is new",
-        "text": "I like new notes",
-        "id": "39525293-3637-4d02-9690-50ad0ed34ca2"
+        "title": "Help friend move",
+        "text": "I need to help my friend",
+        "id": "7bb8cecd-85e0-4979-99cc-089238889c76"
     }
 ]
