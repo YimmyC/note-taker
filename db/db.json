@@ -1,6 +1,17 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text",
+        "note_id": "fdg435"
+    },
+    {
+        "title": "Street Magic",
+        "text": "The coolest magic ever",
+        "note_id": "f28bebf2-b069-43ab-a0a9-ec82a1ce919f"
+    },
+    {
+        "title": "Fake Magic",
+        "text": "This is not a real magic",
+        "note_id": "121efdf8-7e9c-4549-b21c-2328ba06b5e5"
     }
 ]
